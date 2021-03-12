@@ -1,0 +1,275 @@
+.flaticon {
+	text-align: center;
+	display: block;
+}
+
+html{
+	width: 1263px;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	font-family: 'Cutive Mono', monospace;
+	font-weight: 500;
+}
+
+main {
+	font-family: sans-serif;
+}
+
+a, a:link {
+	color: black;
+	text-decoration: none;
+}
+
+
+/* --MAIN PART CSS--  */
+
+/* --BANNER02 DIV CSS-- */
+.banner02 {
+	height: 400px;
+	background: url(https://inacomp.net/wp-content/uploads/2014/12/bg-03.jpg) no-repeat;
+	position: relative;
+	display: inline-block;
+	width: 99.9%
+}
+
+.banner02-text {
+	width: 50%;
+	font-size: 30px;
+	padding-top: 150px; 
+	text-align: center;
+	color: white;
+	font-family: 'Cutive Mono', monospace;
+	font-weight: 500;
+}
+
+/* --FEATURED DIV CSS-- */
+.buy-button {
+	padding: 10px 30px;
+	color: white;
+	background-color: #ef4f4f;
+	border-radius: 3%;
+}
+
+.buy-button:hover{
+	animation: buy-anim 0.5s forwards;
+}
+
+@keyframes buy-anim {
+	100% {
+		padding: 12px 34px;
+		color: red;
+		background-color: #f9f3f3;
+	}
+}
+
+.product-img { 	
+	padding: 20px;
+	width: 200px;
+	height: 250px;
+	background-color: #cee6b4;
+}
+
+.product-img:hover {
+	animation: products-anim 0.3s forwards;
+}
+
+@keyframes products-anim {
+	100% {
+		background-color: #a4ebf3;
+	}
+}
+
+.content-01 { 
+    float:left;  
+    width:23.3%;
+    padding: 5%;
+    padding-top: 0; 
+    height:auto; 
+} 
+.content-02 { 
+    float:left;  
+    width:23.4%;    
+    padding: 5%; 
+    padding-top: 0;
+    height: auto; 
+} 
+.content-03 { 
+    float:right; 
+    width:23.3%; 
+    padding: 5%;
+    padding-top: 0;
+    height:auto; 
+} 
+.contents span, .contents{
+	background-color: #fbe6c2;
+}
+.contents {
+	width: 99.9%;
+	display: block;
+	text-align: center;
+}
+
+/* --BANNER DIV CSS-- */
+.banner-button a:hover {
+	animation: banner-anim 0.5s forwards;
+}
+
+@keyframes banner-anim {
+	100% {
+		color: red;
+		background-color: #f9f3f3;
+	}
+}
+
+.banner-button a{
+	padding: 15px 35px;
+	color: white;
+	background-color: #ef4f4f;
+	border-radius: 3%;
+}
+
+.banner-text02 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+
+.banner-text01 {
+	margin-top: 140px;
+}
+
+.banner-text01, .banner-text02{
+	display: block;
+}
+
+.banner-text {
+	border: transparent solid 1px;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin: 0px 10%;
+	width: 40%;
+}
+
+.banner-img {
+	position: absolute;
+	right: 100px;
+	margin: 100px 0;
+}
+
+.banner {
+	height: 500px;
+}
+
+/* --HEADER CSS-- */
+
+.icons {
+	display: inline-block;
+	position: absolute;
+	right: 80px;
+	margin: 20px 0;
+}
+
+.icons img {
+	height: 20px;
+	padding: 20px 10px;
+}
+
+.icons img:hover {
+	animation: icons-anim 0.5s forwards;
+}
+
+@keyframes icons-anim {
+	100% {
+		color: red;
+		background-color: #a4ebf3;
+	}
+}
+
+.logo {
+	width: 210px;
+	height: 81px;
+	position: absolute;	
+	margin: 9.5px 80px;
+}
+
+.navbar {
+	position: relative;
+	height: 100px;
+}
+
+.navbar-nav {
+	height: 20px;
+	margin: 40px 25%;
+	display: inline-block;
+}
+
+.navbar-nav li {
+	text-align: center;
+	display: inline;
+	font-size: 16px;
+	height: 30px;
+	padding: 0;
+}
+
+.navbar-nav li a {
+	padding: 40px 10px;
+}
+
+.navbar-nav li a:hover {
+	animation: link-anim 0.7s forwards;
+}
+
+@keyframes link-anim {
+	100% {
+		color: red;
+		background-color: #a4ebf3;
+	}
+}
+
+/* --TOP HEADER CSS-- */
+
+.topheader {
+	margin: 0;
+	text-align: center;
+	position: relative;
+	background-color: #f2edd7;
+	padding: 12px;
+}
+
+.container {
+	height: 20px;
+	position: relative;
+	font-size: 12px;
+	margin: 0 50px;
+}
+
+.topheader-left {
+	display: inline-block;
+	max-width: 100%;
+	padding: 4px;
+	margin: 0;
+	position: absolute;
+	left: 10px;
+}
+
+.topheader-left span {	
+	padding-right: 15px;
+}
+
+.topheader-right {
+	display: inline-block;
+	max-width: 100%;
+	padding: 4px;
+	position: absolute;
+	right: 10px;
+}
+
+
+.topheader-right span {	
+	padding: 0 5px;
+}
+
